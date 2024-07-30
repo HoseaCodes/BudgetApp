@@ -33,7 +33,7 @@ export const GoalCard = ({ item }) => {
         <Divider/>
         <View style={styles.goalContainer}>
             <IconButton
-                icon="cash"
+                  icon={item.icon ? item.icon : "cash"}
                 iconColor={MD3Colors.primary50}
                 size={20}
                 mode="contained-tonal"

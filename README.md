@@ -65,3 +65,8 @@ This is done by building your app in the release configuration and running the t
 - [React Native Async](https://reactnative.dev/docs/asyncstorage#methods)
 
 
+Build Expo for Development
+```bash
+eas build --profile development --platform ios
+```
+

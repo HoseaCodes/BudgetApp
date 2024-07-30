@@ -2,8 +2,6 @@ import React from "react";
 import { Alert, StatusBar, Button, View } from "react-native";
 import Icon from "../components/icons/home";
 import FontAwesomeIcon from "../components/icons/fontAwesome";
-
-// import { Button, Icon } from "react-native-elements";
 import Onboarding from "react-native-onboarding-swiper";
 
 const Dots = ({ selected }) => {
